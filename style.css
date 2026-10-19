@@ -239,6 +239,15 @@ section:not(#home) p {
     border-radius: 10px;
     text-align: left;
 }
+.education-card {
+    transition: all 0.3s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-6px);
+    border-color: #38bdf8;
+     transition: all 0.3s ease;
+}
 
 .education-card h3 {
     color: #38bdf8;
