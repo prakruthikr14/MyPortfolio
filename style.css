@@ -282,3 +282,12 @@ section:not(#home) p {
     background-color: #0097a7;
     transform: translateY(-2px);
 }
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #00bcd4;
+    display: block;
+    margin: 20px auto;
+}
