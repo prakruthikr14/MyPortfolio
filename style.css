@@ -269,8 +269,8 @@ section:not(#home) p {
 .resume-button {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #00bcd4;
-    color: #ffffff;
+    background-color: white;
+    color: #000000;
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
@@ -316,20 +316,5 @@ html {
     overflow-wrap: break-word;
 }
 }
-@media (max-width: 600px) {
-    nav {
-        gap: 12px;
-        flex-wrap: wrap;
-    }
 
-    nav a {
-        font-size: 14px;
-    }
-
-    #home h1 {
-        font-size: 24px;
-        line-height: 1.3;
-        overflow-wrap: break-word;
-    }
-}
 
