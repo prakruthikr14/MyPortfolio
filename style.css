@@ -315,6 +315,31 @@ html {
     line-height: 1.3;
     overflow-wrap: break-word;
 }
+/* Force white resume button on all devices */
+a.resume-button,
+a.resume-button:link,
+a.resume-button:visited,
+a.resume-button:hover,
+a.resume-button:active {
+    background: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #00bfff !important;
+    border: 2px solid #ffffff !important;
+    opacity: 1 !important;
+    filter: none !important;
+    box-shadow: none !important;
+    -webkit-text-fill-color: #00bfff !important;
+}
+
+@media (max-width: 650px) {
+    a.resume-button {
+        background: #ffffff !important;
+        background-color: #ffffff !important;
+        color: #00bfff !important;
+        -webkit-appearance: none;
+        appearance: none;
+    }
+}
 }
 
 
