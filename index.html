@@ -1,195 +1,282 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+
+    <meta name="description"
+          content="Prakruthi KR's portfolio showcasing Java development skills, projects, and education.">
+
+    <title>Prakruthi KR | Java Developer Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-<script src="script.js"></script>
+
 <body>
 
-    <header>
-        <h2>My Portfolio</h2>
+    <!-- Navigation Bar -->
+    <header class="site-header">
+        <a href="#home" class="logo">My Portfolio</a>
 
-        <nav>
+        <nav aria-label="Main navigation">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
-   
-<section id="home">
-    <h1>Hello, I'm Prakruthi KR</h1>
+    <main>
 
-    <h2>Aspiring Java Developer</h2>
-    <img src="profile.jpg" alt="Profile photo of Prakruthi"
-     class="profile-photo">
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hello, I'm Prakruthi KR</h1>
 
-    <p>
-        I am a graduate interested in Java development,
-        object-oriented programming, and building
-        practical software solutions. I enjoy learning
-        new technologies and solving problems through code.
-    </p>
+                <h2>Aspiring Java Developer</h2>
 
-    <a href="#projects">Explore My Projects</a>
-</section>
+                <img
+                    src="profile.jpg"
+                    alt="Profile photo of Prakruthi KR"
+                    class="profile-photo"
+                >
 
+                <p>
+                    I am a BE graduate interested in Java development,
+                    object-oriented programming, and building practical
+                    software solutions. I enjoy learning new technologies
+                    and solving problems through code.
+                </p>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a graduate interested in software development
-           and improving my technical skills.</p>
-    </section>
-
-    
-<section id="skills">
-    <h2>My Skills</h2>
-    <p>Technologies I am learning and working with</p>
-
-    <div class="skills-container">
-
-        <div class="skill-card">
-            <h3>Java</h3>
-            <p>Programming fundamentals and OOP</p>
-        </div>
-
-        <div class="skill-card">
-            <h3>HTML</h3>
-            <p>Building webpage structures</p>
-        </div>
-
-        <div class="skill-card">
-            <h3>CSS</h3>
-            <p>Styling responsive websites</p>
-        </div>
-
-        <div class="skill-card">
-            <h3>JavaScript</h3>
-            <p>Learning website interactivity</p>
-        </div>
-
-    </div>
-</section>
-
-
-    
-<section id="projects">
-    <h2>My Projects</h2>
-    <p>Some projects I have worked on</p>
-
-    <div class="projects-container">
-
-        <div class="project-card">
-            <h3>AGRINOVA</h3>
-            <p>
-                A project focused on agricultural innovation.
-                Add a clear explanation of the problem it
-                solves and the features you developed.
-            </p>
-            <div class="project-tech">
-                Technologies: Add your actual tools
+                <a href="#projects" class="primary-button">
+                    Explore My Projects
+                </a>
             </div>
-            <a href="https://github.com/yourusername/agrinova"
-               target="_blank"
-               rel="noopener noreferrer">
-                View Project →
-            </a>
-        </div>
+        </section>
 
-<div class="project-card">
-    <h3>Student Management System</h3>
-    <p>
-        A Java-based application to add, view, search,
-        and delete student records. Uses ArrayList
-        and file handling to store student data.
-    </p>
-    <a href="https://github.com/prakruthikr14/Student-Management-System"
-       target="_blank"
-       rel="noopener noreferrer">
-        View on GitHub
-    </a>
-</div>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-content">
+                <h2>About Me</h2>
 
-        <div class="project-card">
-            <h3>My Portfolio Website</h3>
-            <p>
-                A personal website showcasing my skills,
-                projects, education and contact information.
-            </p>
-            <div class="project-tech">
-                Technologies: HTML, CSS
+                <p>
+                    I am an Electronics and Communication Engineering
+                    graduate with an interest in software development.
+                    I am developing my skills in Java, web technologies,
+                    problem-solving, and object-oriented programming.
+                    I am looking for opportunities to learn, contribute,
+                    and grow as a software developer.
+                </p>
             </div>
-            <a href="#home">Back to Home ↑</a>
-        </div>
+        </section>
 
-    </div>
-</section>
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="section-content">
+                <h2>My Skills</h2>
 
-    
-<section id="education">
-    <h2>Education</h2>
+                <p class="section-intro">
+                    Technologies I am learning and working with.
+                </p>
 
-    <div class="education-card">
-        <h3>Bachelor of Engineering</h3>
-        <p>Bahubali College of Engineering,Shravanabelagola</p>
-        <p>Graduation Year: 2026</p>
-    </div>
-</section>
+                <div class="skills-container">
 
+                    <article class="skill-card">
+                        <h3>Java</h3>
+                        <p>Programming fundamentals and OOP</p>
+                    </article>
 
+                    <article class="skill-card">
+                        <h3>HTML</h3>
+                        <p>Building webpage structures</p>
+                    </article>
 
-    
-<section id="contact">
-    <h2>Contact Me</h2>
+                    <article class="skill-card">
+                        <h3>CSS</h3>
+                        <p>Styling responsive websites</p>
+                    </article>
 
-    <p>
-        I am interested in entry-level Software Developer
-        and Java Developer opportunities.
-    </p>
+                    <article class="skill-card">
+                        <h3>JavaScript</h3>
+                        <p>Website interactivity and DOM basics</p>
+                    </article>
 
-    <p>
-        Email:
-        <a href="prakruthikr114@gmail.com">
-            prakruthikr114@gmail.com
-        </a>
-    </p>
+                    <article class="skill-card">
+                        <h3>SQL</h3>
+                        <p>Database queries and fundamentals</p>
+                    </article>
 
-    <p>
-       GitHub:
-        <a href="https://github.com/prakruthikr14"
-          target="_blank"
-         rel="noopener noreferrer">
-        Visit My GitHub Profile
-</a>
-    </p>
+                    <article class="skill-card">
+                        <h3>Git & GitHub</h3>
+                        <p>Version control and project hosting</p>
+                    </article>
 
-    <p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-content">
+                <h2>My Projects</h2>
+
+                <p class="section-intro">
+                    Some projects I have worked on.
+                </p>
+
+                <div class="projects-container">
+
+                    <article class="project-card">
+                        <h3>AGRINOVA</h3>
+
+                        <p>
+                            An agricultural innovation project focused
+                            on smart farming and automated seed sowing.
+                            Add the exact features and your contribution
+                            to the project here.
+                        </p>
+
+                        <div class="project-tech">
+                            Technologies: Add the actual tools used
+                        </div>
+
+                        <a
+                            href="https://github.com/prakruthikr14"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Visit GitHub →
+                        </a>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Student Management System</h3>
+
+                        <p>
+                            A Java-based application to add, view,
+                            search, and delete student records.
+                            It uses ArrayList and file handling
+                            to manage student data.
+                        </p>
+
+                        <div class="project-tech">
+                            Technologies: Java, Collections, File Handling
+                        </div>
+
+                        <a
+                            href="https://github.com/prakruthikr14/Student-Management-System"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View on GitHub →
+                        </a>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>My Portfolio Website</h3>
+
+                        <p>
+                            A responsive personal website showcasing
+                            my skills, projects, education, and
+                            contact information.
+                        </p>
+
+                        <div class="project-tech">
+                            Technologies: HTML, CSS, JavaScript
+                        </div>
+
+                        <a href="#home">Back to Home ↑</a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="section-content">
+                <h2>Education</h2>
+
+                <article class="education-card">
+                    <h3>Bachelor of Engineering</h3>
+
+                    <p>
+                        Electronics and Communication Engineering
+                    </p>
+
+                    <p>
+                        Bahubali College of Engineering,
+                        Shravanabelagola
+                    </p>
+
+                    <p>Graduation Year: 2026</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-content">
+                <h2>Contact Me</h2>
+
+                <p>
+                    I am interested in entry-level Software Developer
+                    and Java Developer opportunities.
+                </p>
+
+                <div class="contact-links">
+                    <p>
+                        <strong>Email:</strong>
+                        <a href="mailto:prakruthikr114@gmail.com">
+                            prakruthikr114@gmail.com
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>GitHub:</strong>
+                        <a
+                            href="https://github.com/prakruthikr14"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Visit My GitHub Profile
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>LinkedIn:</strong>
+                        <a
+                            href="https://www.linkedin.com/in/prakruthi-kr14/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Visit My LinkedIn Profile
+                        </a>
+                    </p>
+                </div>
+
+                <a
+                    href="./resume.pdf"
+                    class="resume-button"
+                    download
+                >
+                    Download My Resume
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
         <p>
-    LinkedIn:
-    <a href="https://www.linkedin.com/in/prakruthi-kr14/"
-       target="_blank"
-       rel="noopener noreferrer">
-        Visit My LinkedIn Profile
-    </a>
-</p>
-    </p>
-    
-
-<a href="./resume.pdf"
-   download
-   class="resume-button">
-    Download My Resume
-</a>
-
-
-</section>
-<script src="script.js"></script>
+            &copy; <span id="current-year"></span>
+            Prakruthi KR. All rights reserved.
+        </p>
+    </footer>
 
 </body>
 </html>
